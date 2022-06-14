@@ -1,4 +1,5 @@
 module.exports = {
+  swcMinify: true,
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.pdf$/,

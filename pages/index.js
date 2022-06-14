@@ -16,22 +16,38 @@ export default function Home() {
         <section className="container d-flex row m-auto">
           <div className="col-md-6 mb-2">
             <div className="mb-2">
-              <h5>Big Data</h5>
-              <Link href="/assets/test.pdf"><a download="/assets/test.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+              <div className="card">
+                <h5 className="text-center pt-2">Big Data</h5>
+                <div className="card-body d-block m-auto">
+                  <Link href=""><a download="" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                </div>
+              </div>
             </div>
             <div>
-              <h5>Network Computing</h5>
-              <Link href="/assets/test.pdf"><a download="/assets/test.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+              <div className="card">
+                <h5 className="text-center pt-2">Network Computing</h5>
+                <div className="card-body d-block m-auto">
+                  <Link href=""><a download="" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="mb-2">
-              <h5>Microservices Architecture</h5>
-              <Link href="/assets/test.pdf"><a download="/assets/test.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+              <div className="card">
+                <h5 className="text-center pt-2">Microservices Architecture</h5>
+                <div className="card-body d-block m-auto">
+                  <Link href="/assets/microArch.docx"><a download="/assets/microArch.docx" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                </div>
+              </div>
             </div>
             <div>
-              <h5>Image Processing</h5>
-              <Link href="/assets/test.pdf"><a download="/assets/test.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+              <div className="card">
+                <h5 className="text-center pt-2">Image Processing</h5>
+                <div className="card-body d-block m-auto">
+                  <Link href=""><a download="" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                </div>
+              </div>
             </div>
           </div>
         </section>
