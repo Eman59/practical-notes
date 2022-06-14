@@ -37,7 +37,7 @@ export default function Home() {
               <div className="card">
                 <h5 className="text-center pt-2">Microservices Architecture</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href="/assets/microArch.docx"><a download="/assets/microArch.docx" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="/assets/microPrac.pdf"><a download="/assets/microPrac.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
                 </div>
               </div>
             </div>
