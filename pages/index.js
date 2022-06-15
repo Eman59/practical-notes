@@ -19,7 +19,7 @@ export default function Home() {
               <div className="card">
                 <h5 className="text-center pt-2">Big Data</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href=""><a download="" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="/assets/bigData.docx"><a download="/assets/bigData.docx" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Home() {
               <div className="card">
                 <h5 className="text-center pt-2">Image Processing</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href=""><a download="" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="/assets/imageProcessing.docx"><a download="/assets/imageProcessing.docx" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
                 </div>
               </div>
             </div>
