@@ -17,9 +17,9 @@ export default function Home() {
           <div className="col-md-6 mb-2">
             <div className="mb-2">
               <div className="card">
-                <h5 className="text-center pt-2">Big Data</h5>
+                <h5 className="text-center pt-2">Artificial Intelligence</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href="/assets/bigData.docx"><a download="/assets/bigData.docx" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="https://drive.google.com/drive/folders/1KHh94jCNTfKMPqX_gs6F80SByVCzqV6C?usp=share_link"><a target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
                 </div>
               </div>
             </div>
