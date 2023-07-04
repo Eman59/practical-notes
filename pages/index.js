@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -17,17 +17,35 @@ export default function Home() {
           <div className="col-md-6 mb-2">
             <div className="mb-2">
               <div className="card">
-                <h5 className="text-center pt-2">Artificial Intelligence</h5>
+                <h5 className="text-center pt-2">Remote Sensing</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href="https://drive.google.com/drive/folders/1KHh94jCNTfKMPqX_gs6F80SByVCzqV6C?usp=share_link"><a target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="/assets/rs.pdf">
+                    <a
+                      download="/assets/rs.pdf"
+                      target="_blank"
+                      rel="noOpener noReferrer"
+                      className={`${styles.button} ms-2 border px-2`}
+                    >
+                      Download
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div>
               <div className="card">
-                <h5 className="text-center pt-2">Network Computing</h5>
+                <h5 className="text-center pt-2">Cyber Forensics</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href=""><a download="" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="/assets/cf.pdf">
+                    <a
+                      download="/assets/cf.pdf"
+                      target="_blank"
+                      rel="noOpener noReferrer"
+                      className={`${styles.button} ms-2 border px-2`}
+                    >
+                      Download
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -35,23 +53,41 @@ export default function Home() {
           <div className="col-md-6">
             <div className="mb-2">
               <div className="card">
-                <h5 className="text-center pt-2">Microservices Architecture</h5>
+                <h5 className="text-center pt-2">BlockChain</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href="/assets/microPrac.pdf"><a download="/assets/microPrac.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="/assets/bc.pdf">
+                    <a
+                      download="/assets/bc.pdf"
+                      target="_blank"
+                      rel="noOpener noReferrer"
+                      className={`${styles.button} ms-2 border px-2`}
+                    >
+                      Download
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div>
+            {/* <div>
               <div className="card">
                 <h5 className="text-center pt-2">Image Processing</h5>
                 <div className="card-body d-block m-auto">
-                  <Link href="/assets/imageProcessing.docx"><a download="/assets/imageProcessing.docx" target="_blank" rel="noopener noreferrer" className={`${styles.button} ms-2 border px-2`}>Download</a></Link>
+                  <Link href="/assets/imageProcessing.docx">
+                    <a
+                      download="/assets/imageProcessing.docx"
+                      target="_blank"
+                      rel="noOpener noReferrer"
+                      className={`${styles.button} ms-2 border px-2`}
+                    >
+                      Download
+                    </a>
+                  </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
     </div>
-  )
+  );
 }
